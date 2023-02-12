@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lab6</title>
+</head>
+<body>
+    <div class="space"><img src="images/space.jpg" ></div>
+    <ul>
+        <li><img src="images/sun.svg" class="for_z-index sun-popup-btn"></div> <div class="wrap-block">
+            <button aria-checked="true" class="button header-btn sun-popup-btn"></button>
+        </div></li>
+       
+        <li><img src="images/planet1.svg" class="for_z-index planet1-popup-btn"></div><div class="wrap-block1">
+            <button aria-checked="true" class="button1 header-btn1 planet1-popup-btn"></button>
+        </div>
+        </li>
+
+        <li><img src="images/planet2.svg" class="for_z-index planet2-popup-btn"></div><div class="wrap-block2">
+            <button aria-checked="true" class="button2 header-btn2 planet2-popup-btn"></button>
+        </div>
+        </li>
+
+        <li><img src="images/earth.svg"  class="for_z-index earth-popup-btn"></div><div class="wrap-block0">
+            <button aria-checked="true" class="button0 header-btn0 planet0-popup-btn"></button>
+        </div>
+        </li>
+
+        <li><img src="images/planet3.svg"   class="for_z-index planet3-popup-btn"></div><div class="wrap-block3">
+            <button aria-checked="true" class="button3 header-btn3 planet3-popup-btn"></button>
+        </div></li>
+
+
+        <li><img src="images/planet4.svg" class="for_z-index planet4-popup-btn"></div><div class="wrap-block4">
+            <button aria-checked="true" class="button4 header-btn4 planet4-popup-btn"></button>
+        </div></li>
+
+
+        <li><img src="images/planet5.svg"  class="for_z-index planet5-popup-btn"></div><div class="wrap-block5">
+            <button aria-checked="true" class="button5 header-btn5 planet5-popup-btn"></button>
+        </div></li>
+
+
+        <li><img src="images/planet6.svg"   class="for_z-index planet6-popup-btn"></div><div class="wrap-block6">
+            <button aria-checked="true" class="button6 header-btn6 planet6-popup-btn"></button>
+        </div></li>
+
+
+        <li><img src="images/pluton.svg"   class="for_z-index pluton-popup-btn"></div><div class="wrap-block7">
+            <button aria-checked="true" class="button7 header-btn7 planet7-popup-btn"></button>
+        </div></li>
+    </ul>
+  
+
+<!-- Информационное окно 1-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.sun-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup').fadeIn();
+            });
+    
+            $('.popup-close').on('click', function(event){
+                event.preventDefault();
+                $('.popup').fadeOut();
+            });
+    });
+    </script>
+
+<div class="popup">
+    <div class="popup-content">
+    <button class="popup-close">
+        &times;
+    </button>
+    <h2 class="popup-header"> Sun </h2>
+    <p class="registr">
+        The Sun is one of the stars in our galaxy and the only star in the solar system. Other objects of this system revolve around the Sun: planets and their satellites, dwarf planets and their satellites, asteroids, meteoroids, comets and cosmic dust.
+        According to the spectral classification, the Sun belongs to the G2V type. The average density of the Sun is 1.4 g/cm³. The effective surface temperature of the Sun is 5780 Kelvin. Therefore, the Sun shines with almost white light, but the direct light of the Sun near the surface of our planet acquires a certain yellow tint due to stronger scattering and absorption of the short-wavelength part of the spectrum by the Earth's atmosphere.    </p>
+    </div>
+</div>
+ 
+<!-- Информационное окно 2-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet1-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup1').fadeIn();
+            });
+    
+            $('.popup-close1').on('click', function(event){
+                event.preventDefault();
+                $('.popup1').fadeOut();
+            });
+    });
+    </script>
+<div class="popup1">
+    <div class="popup-content1">
+    <button class="popup-close1">
+        &times;
+    </button>
+    <h2 class="popup-header1"> Mercury </h2>
+    <p class="registr1">
+        Mercury is the closest planet to the Sun in the solar system, the smallest of the terrestrial planets. Named after the ancient Roman god of trade, Mercury is fast because it moves through the sky faster than other planets. Its period of revolution around the Sun is only 87.97 Earth days - the shortest among all the planets in the solar system.
+        The apparent distance of Mercury from the Sun, as seen from Earth, never exceeds 28°.  </p>
+    </div>
+</div>
+
+   
+<!-- Информационное окно 3-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet2-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup2').fadeIn();
+            });
+    
+            $('.popup-close2').on('click', function(event){
+                event.preventDefault();
+                $('.popup2').fadeOut();
+            });
+    });
+    </script>
+<div class="popup2">
+    <div class="popup-content2">
+    <button class="popup-close2">
+        &times;
+    </button>
+    <h2 class="popup-header2"> Venus </h2>
+    <p class="registr2">
+        Venus is the second farthest from the Sun and the sixth largest planet in the solar system, along with Mercury, Earth and Mars, belonging to the family of terrestrial planets. Named after the ancient Roman goddess of love, Venus. According to a number of characteristics - for example, in mass and size - Venus is considered the "sister" of the Earth. The Venusian year is 224.7 Earth days. It has the longest period of rotation around its axis among all the planets in the solar system and rotates in the opposite direction to the rotation of most planets.  </p>
+    </div>
+</div>
+  
+<!-- Информационное окно earth-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.earth-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup0').fadeIn();
+            });
+    
+            $('.popup-close0').on('click', function(event){
+                event.preventDefault();
+                $('.popup0').fadeOut();
+            });
+    });
+    </script>
+<div class="popup0">
+    <div class="popup-content0">
+    <button class="popup-close0">
+        &times;
+    </button>
+    <h2 class="popup-header0"> Earth </h2>
+    <p class="registr0">
+        Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large amounts of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands. Earth's surface layer is formed of several slowly moving tectonic plates, interacting to produce mountain ranges, volcanoes and earthquakes. Earth's liquid outer core generates the magnetic field that shapes Earth's magnetosphere, deflecting destructive solar winds.  </p>
+    </div>
+</div>
+
+ <!-- Информационное окно 3-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet3-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup3').fadeIn();
+            });
+    
+            $('.popup-close3').on('click', function(event){
+                event.preventDefault();
+                $('.popup3').fadeOut();
+            });
+    });
+    </script>
+<div class="popup3">
+    <div class="popup-content3">
+    <button class="popup-close3">
+        &times;
+    </button>
+    <h2 class="popup-header3"> Mars </h2>
+    <p class="registr3">
+        Mars is the fourth largest planet from the Sun and the seventh largest planet in the solar system; the mass of the planet is 10.7% of the mass of the Earth.Go to the "Background" section Named after Mars, the ancient Roman god of war, corresponding to the ancient Greek Ares.Go to the section "#In ancient mythology" Also called the "red planet" because of the reddish the shade of the surface, given to it by the mineral maghemite - γ-iron oxide.
+        Mars is a terrestrial planet with a rarefied atmosphere. Features of the surface relief of Mars can be considered impact craters like those of the moon, as well as volcanoes, valleys, deserts and polar ice caps like those of the earth.  </p>
+    </div>
+</div>
+
+
+<!-- Информационное окно 4-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet4-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup4').fadeIn();
+            });
+    
+            $('.popup-close4').on('click', function(event){
+                event.preventDefault();
+                $('.popup4').fadeOut();
+            });
+    });
+    </script>
+<div class="popup4">
+    <div class="popup-content4">
+    <button class="popup-close4">
+        &times;
+    </button>
+    <h2 class="popup-header4"> Jupiter </h2>
+    <p class="registr4">
+        Jupiter is the largest planet in the solar system and the fifth furthest from the sun. Along with Saturn, Uranus and Neptune, Jupiter is classified as a gas giant.
+        The planet has been known to people since ancient times, which is reflected in the mythology and religious beliefs of various cultures: Mesopotamian, Babylonian, Greek and others. The modern name of Jupiter comes from the name of the ancient Roman supreme god of thunder.  </p>
+    </div>
+</div>
+
+<!-- Информационное окно 5-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet5-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup5').fadeIn();
+            });
+    
+            $('.popup-close5').on('click', function(event){
+                event.preventDefault();
+                $('.popup5').fadeOut();
+            });
+    });
+    </script>
+<div class="popup5">
+    <div class="popup-content5">
+    <button class="popup-close5">
+        &times;
+    </button>
+    <h2 class="popup-header5"> Uranus </h2>
+    <p class="registr5">
+        Uranus is the planet of the solar system, the seventh in distance from the Sun, the third in diameter and the fourth in mass. It was discovered in 1781 by the English astronomer William Herschel and named after the Greek sky god Uranus.
+Uranus was the first planet discovered in modern times and with the help of a telescope. It was discovered by William Herschel on March 13, 1781, thereby expanding the boundaries of the solar system in the eyes of man for the first time since antiquity. Although sometimes visible to the naked eye, Uranus was mistaken for a dim star by earlier observers.</p>
+    </div>
+</div>
+
+<!-- Информационное окно 6-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.planet6-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup6').fadeIn();
+            });
+    
+            $('.popup-close6').on('click', function(event){
+                event.preventDefault();
+                $('.popup6').fadeOut();
+            });
+    });
+    </script>
+<div class="popup6">
+    <div class="popup-content6">
+    <button class="popup-close6">
+        &times;
+    </button>
+    <h2 class="popup-header6"> Saturn </h2>
+    <p class="registr6">
+        Saturn is the sixth planet from the Sun and the second largest planet in the solar system after Jupiter. Saturn, as well as Jupiter, Uranus and Neptune, are classified as gas giant planets. Saturn is named after the Roman god of agriculture.
+        Saturn is mostly made up of hydrogen, with some helium and traces of water, methane, ammonia, and heavy elements. The inner region is a relatively small core of iron, nickel and ice, covered with a thin layer of metallic hydrogen and a gaseous outer layer. The outer atmosphere of the planet appears calm and uniform from space, although sometimes long-term formations appear on it.   </p>
+    </div>
+</div>
+
+<!-- Информационное окно 7-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+            $('.pluton-popup-btn').on('click', function(event) {
+                event.preventDefault();
+                $('.popup7').fadeIn();
+            });
+    
+            $('.popup-close7').on('click', function(event){
+                event.preventDefault();
+                $('.popup7').fadeOut();
+            });
+    });
+    </script>
+<div class="popup7">
+    <div class="popup-content7">
+    <button class="popup-close7">
+        &times;
+    </button>
+    <h2 class="popup-header7"> Neptune </h2>
+    <p class="registr7">
+        Neptune is the eighth and farthest planet from the Sun in the solar system. Its mass exceeds the mass of the Earth by 17.2 times and is the third among the planets of the solar system, and in terms of equatorial diameter, Neptune ranks fourth, surpassing the Earth by 3.9 times. The planet is named after Neptune, the Roman god of the seas.
+        Discovered on September 23, 1846, Neptune was the first planet to be discovered through mathematical calculations. The discovery of unpredictable changes in the orbit of Uranus gave rise to the hypothesis of an unknown planet, the gravitational perturbing influence of which they are due to.  </p>
+    </div>
+</div>
+
+
+</body>
+</html>
